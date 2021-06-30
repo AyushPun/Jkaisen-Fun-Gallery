@@ -30,6 +30,6 @@ nav:hover {
 }
 
 body {
-    background: repeat url(3.png);
+    background: no-repeat url(3.png);
     background-size: cover;
 }
