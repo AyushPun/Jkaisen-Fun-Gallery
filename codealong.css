@@ -1,0 +1,35 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    /* margin: 1.666%; */
+    box-shadow: 10px 10px 10px   rgba(255, 255, 0, 0.493);
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: scale(2);
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.61);
+}
+nav {
+    font-family: Raleway;
+    letter-spacing: 15px;
+    color: #ff5cd6; 
+    font-size: 300%;
+    text-shadow: 2px 2px yellow;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    transition: 0.6s;
+}
+
+nav:hover {
+    transform: scaleY(2);
+    text-shadow:10px 10px 10px rgba(255, 0, 0, 0.61);
+}
+
+body {
+    background: no-repeat url(3.png);
+    background-size: cover;
+}
